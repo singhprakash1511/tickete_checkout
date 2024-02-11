@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+html,body{
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (max-width:640px){
+.arrow{
+  font-size: 25px;
+  color: grey;
+  display: block;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo{
+  display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.help{
+  display: none;
+}
+
+.helpIcon{
+  font-size: 20px;
+}
+
+.checkout{
+  font-size: 20px;
+}
+
+.paySection{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column-reverse;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.card{
+  width: 90%;
+  margin: auto;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bestseller{
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  position: absolute;
+  left: 13%;
+}
+
+.image{
+  width: 375px;
+  height: 220px;
+}
+
+.description{
+  width: 90%;
+  padding-left: 30px;
+}
+
 }
