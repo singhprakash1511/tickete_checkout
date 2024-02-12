@@ -26,7 +26,7 @@ const PaymentMode = () => {
 
         <div className='flex items-center justify-between gap-2'>
             <div className='flex gap-3'>
-            <img src={creditCard} alt='image' className='border px-[5px] py-[1px] rounded-[3px]'/>
+            <img src={creditCard} alt='credit' className='border px-[5px] py-[1px] rounded-[3px]'/>
             <h3 className='font-semibold font-inter text-[16x] leading-[22px] text-[#1C2024]'>
             Credit & debit card
             </h3>
@@ -35,9 +35,9 @@ const PaymentMode = () => {
         </div>
 
         <div className='flex gap-1'>
-                <img src={visaCard} alt='image'/>
-                <img src={masCard} alt='image' />
-                <img src={club} alt='image'/>
+                <img src={visaCard} alt='visa'/>
+                <img src={masCard} alt='mas' />
+                <img src={club} alt='club'/>
         </div>
 
         <form className='flex flex-col gap-6 form'>
@@ -99,7 +99,7 @@ const PaymentMode = () => {
 
       <div className='flex items-center justify-between border px-3 py-5 rounded-xl bg-[#d3d4db31]'>
         <div className='flex gap-2'>
-            <img src={iPay}  alt='image'/>
+            <img src={iPay}  alt='iPay'/>
             <h3>Coming soon</h3>
         </div>
         <input type="radio" name="options" placeholder='Coming soon'/>
@@ -107,7 +107,7 @@ const PaymentMode = () => {
 
       <div className='flex items-center justify-between border px-3 py-5 rounded-xl bg-[#d3d4db31]'>
         <div className='flex gap-2'>
-            <img src={gPay}  alt='image' />
+            <img src={gPay}  alt='gPay' />
             <h3>Coming soon</h3>
         </div>
         <input type="radio" name="options" placeholder='Coming soon'/>

@@ -27,7 +27,7 @@ const Card = () => {
             </div>
 
             <div>
-                <img src={image} alt='image' className=' w-[352px] h-[198px] rounded-3xl image'/>
+                <img src={image} alt='mountain' className=' w-[352px] h-[198px] rounded-3xl image'/>
             </div>
         </div>
 
