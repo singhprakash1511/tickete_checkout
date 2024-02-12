@@ -65,7 +65,7 @@ const Questions = () => {
                     </button>
                 </div>
                 <div className='pr-10'>
-                    <img src={About} />
+                    <img src={About} alt='image'/>
                 </div>
             </div>
       </div>

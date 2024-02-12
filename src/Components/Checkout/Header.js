@@ -12,7 +12,7 @@ const Header = ({Logo}) => {
       
         <div className='flex justify-between p-5 w-10/12 mx-auto'>
         <div className='font-bold text-[40px]'>
-            <img src={Logo} className='logo'/>
+            <img src={Logo} alt='image' className='logo'/>
             <IoMdArrowBack className='hidden arrow'/>
         </div>
 
