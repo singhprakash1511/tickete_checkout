@@ -42,10 +42,10 @@ const Questions = () => {
           };
 
   return (
-    <div className='w-10/12 mx-auto px-6 flex  gap-10 py-10 '>
+    <div className='w-10/12 mx-auto px-6 flex  gap-10 py-10 question'>
 
-      <div className='flex flex-col gap-10 w-[40%]  '>
-            <div className='flex flex-col gap-2'>
+      <div className='flex flex-col gap-10 w-[40%]  ques'>
+            <div className='flex flex-col gap-2 lost'>
                     <h3 className='text-[#1C2024] text-[24px] font-semibold leading-[32px]'>
                         Frequently asked questions
                     </h3>
@@ -70,7 +70,7 @@ const Questions = () => {
             </div>
       </div>
       
-      <div className='w-[60%] flex flex-col gap-10 '>
+      <div className='w-[60%] flex flex-col gap-10 ques '>
 
       <div className="border border-gray-500 p-4 flex items-start rounded-xl py-5">
       <button className={`px-4 py-2 mb-2 transition-all duration-2000 transform  ${isRotated ? "rotate-45" : "rotate-90" }`} onClick={clickHandler}>
@@ -120,7 +120,7 @@ const Questions = () => {
       
       </div>
 
-      <div className="border border-gray-500 p-4 flex items-start rounded-xl py-5">
+      <div className="border border-gray-500 p-4 flex items-start rounded-xl py-5 ques">
       <button className={`px-4 py-2 mb-2 transition-all duration-2000 transform  ${isRotated3 ? "rotate-45" : "rotate-90" }`} onClick={clickHandler3}>
         <IoMdAdd className='text-[24px]' />
       </button>
@@ -136,7 +136,7 @@ const Questions = () => {
       
       </div>
 
-      <div className="border border-gray-500 p-4 flex items-start rounded-xl py-5">
+      <div className="border border-gray-500 p-4 flex items-start rounded-xl py-5 ques">
       <button className={`px-4 py-2 mb-2 transition-all duration-2000 transform  ${isRotated4 ? "rotate-45" : "rotate-90" }`} onClick={clickHandler4}>
         <IoMdAdd className='text-[24px]' />
       </button>
@@ -152,6 +152,17 @@ const Questions = () => {
       
       </div>
 
+      </div>
+
+      <div className='hidden quesHeading'>
+      <div className='flex flex-col gap-2   '>
+                    <h3 className='text-[#1C2024] text-[24px] font-semibold leading-[32px] formHeading'>
+                        Frequently asked questions
+                    </h3>
+                    <p className='text-[#60646C] text-[16px] font-normal leading-[24px] small'>
+                        Here are some of our most asked questions. 
+                    </p>
+            </div>
       </div>
 
     </div>

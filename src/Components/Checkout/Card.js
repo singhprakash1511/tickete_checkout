@@ -87,7 +87,7 @@ const Card = () => {
         <div className='border my-3 w-full '></div>
 
         <div>
-                    <div className='flex px-5 flex-col gap-1 description'>
+                    <div className='flex px-5 flex-col gap-1 subHeading'>
                             <div className='text-[#1C2024] font-inter text-[18px] font-semibold leading-[26px] flex items-center justify-between'>
                                 <h2>Total payable</h2>
 
@@ -98,7 +98,7 @@ const Card = () => {
                             </span>
                     </div>
 
-                <p className='font-inter text-[12px] font-semibold leading-[18px] text-[#60646C] flex items-center underline underline-offset-1 pl-5 mt-3 gap-1 description'>
+                <p className='font-inter text-[12px] font-semibold leading-[18px] text-[#60646C] flex items-center underline underline-offset-1 pl-5 mt-3 gap-1 desc'>
                 You will be charged in Aed 
                 <IoIosInformationCircle />
                 </p>
@@ -106,7 +106,7 @@ const Card = () => {
 
         </div>
 
-        <div className='px-5 font-inter text-[12px] font-normal leading-[20px] description'>
+        <div className='px-5 font-inter text-[12px] font-normal leading-[20px] lost'>
             <p>By clicking “confirm & pay”, you agree to <span className='text-blue-400 underline'> Tickete’s general terms and conditions</span>  and <span  className='text-blue-400 underline'>cancellation policy</span>.</p>
 
             <button className='my-3 flex  items-center gap-1 bg-black text-[#EDEEF0] py-4 w-full text-center justify-center rounded-2xl  font-inter text-[18px] font-semibold leading-[24px]'> 

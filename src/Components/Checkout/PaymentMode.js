@@ -12,14 +12,14 @@ import gPay from "../../assets/gpay.png";
 
 const PaymentMode = () => {
   return (
-    <div className='w-10/12 mx-auto px-16 flex flex-col gap-10'>
+    <div className='w-10/12 mx-auto px-16 flex flex-col gap-10 mode'>
       
-      <div>
-        <h3 className='font-semibold text-[24x] leading-[32px] text-[#1C2024]'>
+      <div className='modeSec'>
+        <h3 className='font-semibold text-[24x] leading-[32px] text-[#1C2024] formHeading'>
         Select your mode of payment
         </h3>
 
-        <p className='font-normal text-[16px] leading-[24px] text-[#60646C]'>Payments with Tickete are secure and encrypted.</p>
+        <p className='font-normal text-[16px] leading-[24px] text-[#60646C] small'>Payments with Tickete are secure and encrypted.</p>
       </div>
 
       <div className='border p-6 gap-8 flex flex-col rounded-xl border-black'>
@@ -40,8 +40,8 @@ const PaymentMode = () => {
                 <img src={club} />
         </div>
 
-        <form className='flex flex-col gap-6'>
-            <div className='flex gap-8'>
+        <form className='flex flex-col gap-6 form'>
+            <div className='flex gap-8 formSection'>
                 <input type="text" 
                 required
                 className='border px-4 py-3 rounded-2xl w-[100%]'
@@ -53,7 +53,7 @@ const PaymentMode = () => {
                 placeholder='Card Number'/>
             </div>
 
-            <div className='flex gap-8'>
+            <div className='flex gap-8 formSection'>
             <input type="text" 
                 required
                 className='border px-4 py-3 rounded-2xl w-[100%]'
@@ -66,7 +66,7 @@ const PaymentMode = () => {
             </div>
         </form>
 
-        <div className='border'></div>
+        <div className='border formSection'></div>
 
             <div>
                         <div className='flex px-5 flex-col gap-1'>

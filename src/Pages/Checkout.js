@@ -22,14 +22,14 @@ const Checkout = () => {
           </div>
         {/* Section 2 */}
 
-      <div className='w-[71%] pr-3 '>
+      <div className='w-[71%] pr-3 mode '>
         <PaymentMode />
       </div>
 
       <div className='border w-11/12 mx-auto my-8'></div>
 
       {/* Section 3 */}
-      <div className='w-full'>
+      <div className='w-full mode'>
       <FreqQuestions />
       </div>
 
